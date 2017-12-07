@@ -61,6 +61,7 @@ FLOW_API_DOMAIN=yourhost.com FLOW_WEB_DOMAIN=yourhost.com ./start-services.sh
 mkdir flowci 
 cd flowci 
 git clone git@github.com:FlowCI/flow-platform.git 
+# 初次修改需要 npm install
 git clone git@github.com:FlowCI/flow-web.git 
 git clone git@github.com:FlowCI/docker.git 
 cd docker 
